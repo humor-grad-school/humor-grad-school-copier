@@ -1,0 +1,22 @@
+{
+  "name": "humor-grad-school-copier",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "watch-build": "tsc -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "typescript": "^3.2.2",
+    "ws": "^6.1.2"
+  },
+  "devDependencies": {
+    "@types/chrome": "0.0.77"
+  }
+}

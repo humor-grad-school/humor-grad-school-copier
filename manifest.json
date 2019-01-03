@@ -1,0 +1,16 @@
+{
+  "name": "Humor Grad School Copier",
+  "version": "1.0",
+  "description": "Copy Humor Contents Easily!",
+  "background": {
+    "scripts": ["dist/index.js", "dist/page.js"],
+    "persistent": false
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "browser_action": {
+    "default_title": "Make this page red"
+  },
+  "manifest_version": 2
+}
